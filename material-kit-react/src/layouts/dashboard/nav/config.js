@@ -20,6 +20,11 @@ const navConfig = [
     title: 'Chủ đề',
     path: '/blog',
     icon: icon('ic_blog'),
+  },
+  {
+    title: 'Nhận diện bài hát',
+    path: '/recognition',
+    icon: icon('ic_lock'),
   }
 ];
 

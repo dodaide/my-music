@@ -35,7 +35,7 @@ function Top10Song() {
   
     return (
         <>
-            <Typography variant="h3" gutterBottom>
+            <Typography variant="h4" gutterBottom>
                 Top 10 ca khúc
             </Typography>
             <Slider className={styles.slideContainer} {...settings}>

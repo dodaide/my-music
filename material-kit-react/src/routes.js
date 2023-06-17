@@ -7,6 +7,7 @@ import Discovery from './pages/Discovery';
 import DetailSong from './pages/DetailSong';
 import Page404 from './pages/Page404';
 import DashboardAppPage from './pages/DashboardAppPage';
+import Recorder from './pages/Recorder';
 
 // ----------------------------------------------------------------------
 
@@ -21,6 +22,7 @@ export default function Router() {
         { path: 'blog', element: <BlogPage /> },
         { path: 'songs/:id', element: <DetailSong /> },
         { path: '404', element: <Page404 /> },
+        { path: 'recognition', element: <Recorder /> },
         { path: '*', element: <Navigate to="/404" /> },
       ],
     }

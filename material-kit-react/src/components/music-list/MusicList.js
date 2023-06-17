@@ -55,7 +55,7 @@ function MusicList() {
 
   return (
     <>
-        <Typography variant="h3" gutterBottom>
+        <Typography variant="h4" gutterBottom>
             Thư viện nhạc
         </Typography>
         <Card>
@@ -109,13 +109,13 @@ function MusicList() {
             </Scrollbar>
 
             <TablePagination
-            rowsPerPageOptions={[5, 10, 25]}
-            component="div"
-            count={musicList.length}
-            rowsPerPage={rowsPerPage}
-            page={page}
-            onPageChange={handleChangePage}
-            onRowsPerPageChange={handleChangeRowsPerPage}
+              rowsPerPageOptions={[5, 10, 25]}
+              component="div"
+              count={musicList.length}
+              rowsPerPage={rowsPerPage}
+              page={page}
+              onPageChange={handleChangePage}
+              onRowsPerPageChange={handleChangeRowsPerPage}
             />
         </Card>
     </>
